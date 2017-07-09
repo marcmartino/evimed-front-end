@@ -1,0 +1,38 @@
+
+<svg width="194px" height="148px" viewBox="0 0 194 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.988235701,97.3333333 L175.011493,97.3333333" id="path-1"></path>
+        <filter x="-6.5%" y="-150.0%" width="112.9%" height="480.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="138.997818 45.1922791 79.4431074 142.282326 46 45.1922791 67.6349091 45.1922791 86.2755702 95.464186 116.940926 45"></polygon>
+        <filter x="-7.5%" y="-5.1%" width="115.1%" height="114.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Us-Content-1" transform="translate(-503.000000, -503.000000)">
+            <g id="Group" transform="translate(512.000000, 503.000000)">
+                <g id="Line" stroke-linecap="square">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#00A69C" stroke-width="5" fill="#00A69C" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path id="Line-decoration-1" d="M0.988235701,97.3333333 L11.7882357,94.3333333 L11.7882357,100.333333 L0.988235701,97.3333333 Z" stroke-linecap="square"></path>
+                <path id="Line-decoration-2" d="M175.011493,97.3333333 L164.211493,94.3333333 L164.211493,100.333333 L175.011493,97.3333333 Z" stroke-linecap="square"></path>
+                <g id="Fill-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#1B5982" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <path d="M133.108959,0 L89.1529587,77.2417674 C88.9474711,77.6009302 88.415405,77.5646512 88.2612893,77.1837209 L75,44.8010233 L88.5218182,50.3952558 C88.7162975,50.4750698 88.9438017,50.4206512 89.0832397,50.2610233 L133.108959,0 Z" id="Fill-15" fill="#00A69C"></path>
+            </g>
+        </g>
+    </g>
+</svg>
